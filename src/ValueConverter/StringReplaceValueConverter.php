@@ -13,8 +13,8 @@ class StringReplaceValueConverter implements ValueConverterInterface
     private $replace;
 
     /**
-     * @param string $search
-     * @param string $replace
+     * @param string $search  Search string
+     * @param string $replace Replace string
      */
     public function __construct($search, $replace)
     {
@@ -23,11 +23,11 @@ class StringReplaceValueConverter implements ValueConverterInterface
     }
 
     /**
-     * Convert a value
+     * Replaces occurrences of the search string with the replace string in the given input string.
      *
-     * @param mixed $input Input value
+     * @param string $input Input string.
      *
-     * @return mixed
+     * @return string Output string.
      */
     public function convert($input)
     {

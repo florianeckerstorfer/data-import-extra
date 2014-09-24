@@ -7,14 +7,18 @@ use Ddeboer\DataImport\ItemConverter\ItemConverterInterface;
 class RemoveEmptyColumnItemConverter implements ItemConverterInterface
 {
     /**
-     * Convert an input
+     * Removes columns with an empty column name from the item.
      *
-     * @param mixed $input Input
+     * @param array $input Input array.
      *
-     * @return array|null the modified input or null to remove it
+     * @return array|null Array without empty columns.
      */
     public function convert($input)
     {
+        if (!$input) {
+            return $input;
+        }
+
         $output = [];
         foreach ($input as $key => $value) {
             if (trim($key)) {

@@ -9,7 +9,19 @@ Features
 
 ### Item Converters
 
-- **RemoveEmptyColumnItemConverter**: Removes columns with an empty key from the items.
+#### RemoveEmptyColumnItemConverter
+
+Removes columns with an empty key from the items.
+
+### Value Converters
+
+#### StringReplaceValueConverter
+
+Replaces the `search` string with the `replace` string in the input string.
+
+#### MultiplicationValueConverter
+
+Multiplies the given input value with the multiplicator.
 
 
 Installation

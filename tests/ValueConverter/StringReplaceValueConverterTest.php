@@ -2,7 +2,6 @@
 
 namespace FlorianEc\DataImportExtra\ValueConverter;
 
-
 class StringReplaceValueConverterTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -17,4 +16,3 @@ class StringReplaceValueConverterTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('bazbar', $converter->convert('foobar'));
     }
 }
- 

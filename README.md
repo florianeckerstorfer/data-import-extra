@@ -1,7 +1,7 @@
 DataImportExtra
 ===============
 
-> Additional converters for ddeboer/data-import.
+> Additional converters for [ddeboer/data-import](https://github.com/ddeboer/data-import).
 
 
 Features

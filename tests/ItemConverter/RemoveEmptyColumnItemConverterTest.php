@@ -25,4 +25,13 @@ class RemoveEmptyColumnItemConverterTest extends \PHPUnit_Framework_TestCase
         $this->assertCount(1, $output);
         $this->assertEquals('value', $output['key']);
     }
+
+    /**
+     * @test
+     * @covers FlorianEc\DataImportExtra\ItemConverter\RemoveEmptyColumnItemConverter::convert()
+     */
+    public function convertReturnsNullWhenInputIsNull()
+    {
+        $this->assertNull($this->converter->convert(null));
+    }
 }

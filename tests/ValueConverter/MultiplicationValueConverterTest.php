@@ -6,6 +6,7 @@ class MultiplicationValueConverterTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
+     * @covers FlorianEc\DataImportExtra\ValueConverter\MultiplicationValueConverter::__construct()
      * @covers FlorianEc\DataImportExtra\ValueConverter\MultiplicationValueConverter::convert()
      */
     public function convertShouldMultiplyTheInputValue()

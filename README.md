@@ -1,7 +1,11 @@
 DataImportExtra
 ===============
 
-> Additional converters for [ddeboer/data-import](https://github.com/ddeboer/data-import).
+> Additional item and value converters for [ddeboer/data-import](https://github.com/ddeboer/data-import).
+
+[![Build Status](https://travis-ci.org/florianeckerstorfer/data-import-extra.svg?branch=master)](https://travis-ci.org/florianeckerstorfer/data-import-extra)
+[![Code Climate](https://codeclimate.com/github/florianeckerstorfer/data-import-extra/badges/gpa.svg)](https://codeclimate.com/github/florianeckerstorfer/data-import-extra)
+[![Test Coverage](https://codeclimate.com/github/florianeckerstorfer/data-import-extra/badges/coverage.svg)](https://codeclimate.com/github/florianeckerstorfer/data-import-extra)
 
 
 Features

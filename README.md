@@ -15,13 +15,17 @@ Removes columns with an empty key from the items.
 
 ### Value Converters
 
-#### StringReplaceValueConverter
+#### ChainValueConverter
 
-Replaces the `search` string with the `replace` string in the input string.
+Executes multiple value converters. Great for composing chains of value converters and reusing them for multiple fields or in multiple workflows.
 
 #### MultiplicationValueConverter
 
 Multiplies the given input value with the multiplicator.
+
+#### StringReplaceValueConverter
+
+Replaces the `search` string with the `replace` string in the input string.
 
 
 Installation
